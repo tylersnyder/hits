@@ -1,0 +1,7 @@
+node_modules/
+package-lock.json
+yarn.lock
+credentials.json
+.vscode
+.next/
+.cache/

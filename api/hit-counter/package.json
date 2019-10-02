@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "node index.js | pino"
+  },
+  "dependencies": {
+    "@koa/cors": "2",
+    "badgen": "^2.8.2",
+    "firebase-admin": "^5.13.1",
+    "koa": "^2.8.1",
+    "koa-pino-logger": "^2.1.3"
+  }
+}

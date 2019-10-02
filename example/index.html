@@ -1,0 +1,10 @@
+<img src="https://hits.now.sh/counter.svg" alt="hit counter" />
+<p id="count">Fetching hit count...</p>
+
+<script>
+  fetch('https://hits.now.sh/')
+    .then((res) => res.text())
+    .then((count) => {
+      document.getElementById("count").innerText = `Hit count: ${count}`;
+    });
+</script>
